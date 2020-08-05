@@ -32,7 +32,6 @@
   "devDependencies": {
     "@cypress/webpack-preprocessor": "^5.4.2",
     "cypress": "^4.12.0",
-    "eslint": "^7.6.0",
     "uniter-loader": "^1.0.0",
     "webpack": "^4.44.1"
   },
