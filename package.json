@@ -1,0 +1,43 @@
+{
+  "version": "0.0.1",
+  "name": "cypress-php-example",
+  "description": "Example of how to use cypress-php to write Cypress tests in PHP",
+  "keywords": [
+    "uniter",
+    "php",
+    "cypress"
+  ],
+  "homepage": "https://github.com/uniter/cypress-php-example",
+  "author": "Dan Phillimore <dan@ovms.co> (https://github.com/asmblah)",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uniter/cypress-php-example"
+  },
+  "bugs": {
+    "email": "dan@ovms.co",
+    "url": "https://github.com/uniter/cypress-php-example/issues"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**",
+    "src/**",
+    "MIT-LICENSE.txt",
+    "README.md"
+  ],
+  "scripts": {
+    "start": "cypress open"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@cypress/webpack-preprocessor": "^5.4.2",
+    "cypress": "^4.12.0",
+    "eslint": "^7.6.0",
+    "uniter-loader": "^1.0.0",
+    "webpack": "^4.44.1"
+  },
+  "engines": {
+    "node": ">=8"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,13 @@
+{
+  "name": "uniter/cypress-php-example",
+  "autoload": {
+    "psr-4": {
+      "MyCompany\\Cypress\\MyLib\\": "uniter/lib/MyLib/"
+    }
+  },
+  "require": {},
+  "scripts": {},
+  "config": {
+    "process-timeout": 0
+  }
+}
