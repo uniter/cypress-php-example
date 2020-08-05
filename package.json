@@ -1,7 +1,7 @@
 {
   "version": "0.0.1",
   "name": "cypress-php-example",
-  "description": "Example of how to use cypress-php to write Cypress tests in PHP",
+  "description": "Example of how to write Cypress tests in PHP",
   "keywords": [
     "uniter",
     "php",
