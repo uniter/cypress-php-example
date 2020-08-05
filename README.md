@@ -13,6 +13,9 @@ $ npm start
 ## How does it work?
 It uses the [Webpack loader from Uniter]() to transpile your PHP specs into JavaScript.
 
+Source maps are supported - try opening your browser's developer tools, search for your
+PHP spec file by name and stick a breakpoint in there somewhere!
+
 ## Caveats
 Stack traces are not yet fixed to remove the frames that point into Uniter.
 You should still see the correct path and line if you look up the stack to your .php file, though.
