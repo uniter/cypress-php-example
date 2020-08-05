@@ -11,7 +11,7 @@ $ npm start
 ```
 
 ## How does it work?
-It uses the [Webpack loader from Uniter]() to transpile your PHP specs into JavaScript.
+It uses the [Webpack loader from Uniter][] to transpile your PHP specs into JavaScript.
 
 Source maps are supported - try opening your browser's developer tools, search for your
 PHP spec file by name and stick a breakpoint in there somewhere!
