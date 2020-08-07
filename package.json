@@ -31,7 +31,7 @@
   "dependencies": {},
   "devDependencies": {
     "@cypress/webpack-preprocessor": "^5.4.2",
-    "cypress": "^4.12.0",
+    "cypress": "^4.12.1",
     "uniter-loader": "^1.0.0",
     "webpack": "^4.44.1"
   },
