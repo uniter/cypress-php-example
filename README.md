@@ -2,6 +2,9 @@
 
 An example of how to use Uniter to write Cypress specs in PHP.
 
+## Demo
+![Demo of Cypress running PHP specs with Uniter](https://phptojs.com/cypress-php-example/img/cypress_php.gif)
+
 ## Usage
 ```shell
 $ git clone https://github.com/uniter/cypress-php-example.git
