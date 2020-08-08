@@ -1,6 +1,6 @@
 # Cypress PHP example
 
-An example of how to use Uniter to write Cypress specs in PHP.
+An example of how to use Uniter to write [Cypress](https://www.cypress.io/) specs in PHP.
 
 ## Demo
 ![Demo of Cypress running PHP specs with Uniter](https://phptojs.com/cypress-php-example/img/cypress_php.gif)
