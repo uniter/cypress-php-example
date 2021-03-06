@@ -19,8 +19,8 @@ It uses the [Webpack loader from Uniter][] to transpile your PHP specs into Java
 Source maps are supported - try opening your browser's developer tools, search for your
 PHP spec file by name and stick a breakpoint in there somewhere!
 
-## Caveats
-Stack traces are not yet fixed to remove the frames that point into Uniter.
-You should still see the correct path and line if you look up the stack to your .php file, though.
+Note that Uniter's `stackCleaning` feature has been enabled for this demo
+(see `uniter.config.js`), so you should see cleaner stack traces (with frames that point
+into Uniter's internals removed).
 
 [Webpack loader from Uniter]: https://github.com/uniter/loader
