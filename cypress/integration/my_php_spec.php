@@ -14,6 +14,14 @@ describe('My First PHP Test', function () {
         expect(true)->to->equal(false);
     });
 
+    it('should fail with a deeper stack', function () {
+        $myClosure = function () {
+            expect(true)->to->equal(false);
+        };
+
+        $myClosure();
+    });
+
     it('makes sure the helper works', function () {
         // The MyHelper class is pulled in via Composer's autoloader - see /uniter/bootstraps/late.php
         expect(MyHelper::getANumber())->to->equal(21);
